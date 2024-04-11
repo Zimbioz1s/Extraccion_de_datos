@@ -46,3 +46,4 @@ filtro8.to_csv('Entregable8.csv')
 #Filtro not
 filtro9=df[~(df["SUBTOTAL_PARTIDA"] > 77000) & ~(df["FECHA_DOC"] == "2022-05-24")]
 filtro9.to_csv('Entregable9.csv')
+
